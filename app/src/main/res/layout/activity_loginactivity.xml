@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginactivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img_4">
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/login_now"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="91dp"
+        tools:ignore="MissingConstraints"
+        android:textColor="#1B4F72"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginTop="22dp"
+        android:text="@string/please_login_to_continue_using_app"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="140dp"
+        tools:ignore="MissingConstraints"
+        android:textColor="#1B4F72"/>
+
+    <EditText
+        android:id="@+id/editEmailAddressforlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email"
+        android:layout_marginTop="42dp"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="264dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextPasswordforlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18sp"
+        android:layout_marginTop="22dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="334dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/buttonforlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:textSize="19sp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="#75DE54"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="406dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/tosignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/don_t_have_an_account_signup"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="477dp"
+        android:textColor="#1B4F72"/>
+
+</LinearLayout>

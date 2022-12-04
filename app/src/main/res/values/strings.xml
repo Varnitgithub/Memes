@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Memes</string>
+    <string name="next">Next</string>
+    <string name="share">share</string>
+    <string name="already_have_an_account_log_in">already_have_an_account_log_in</string>
+    <string name="signup">signup</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="password2">password2</string>
+    <string name="email2">email2</string>
+    <string name="enter_your_email_address_and_password_nto_get_access_to_your_account">enter_your_email_address_and_password_nto_get_access_to_your_account</string>
+    <string name="stay_connected">stay_connected</string>
+    <string name="already_have_an_account_lg_in">already have an account log in</string>
+    <string name="enter_your_email_address_and_password">enter your email address and password</string>
+    <string name="don_t_have_an_account_signup">don\'t have an account signup</string>
+    <string name="log_in">log in</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="please_login_to_continue_using_app">please login to continue using app</string>
+    <string name="login_now">login now</string>
+    <string name="enter_email_address_and_password">enter email address and password</string>
+</resources>
